@@ -107,14 +107,16 @@ def D206Part3EPCA():
     #make sure all columns and rows are displayed in pandas
     pd.set_option('display.max_columns',None)
     pd.set_option('display.max_rows',None)
+    plt.axhline(y=1,color='r',linestyle='-')
+    plt.show()
     loadings
     print(loadings)
     
     
 #Use below as needed to call a function, or call them all
-D206PartTwoDetectionCode()
+#D206PartTwoDetectionCode()
 #D206PartThreeTreatmentCode()
 #D206PartThreeProvideCode()
-#D206PartThreeCheckVariablesAfterClean()
+D206PartThreeCheckVariablesAfterClean()
 #D206Part3EPCA()
 
