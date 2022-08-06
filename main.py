@@ -114,7 +114,7 @@ def D206Part3EPCA():
     
     
 #Use below as needed to call a function, or call them all
-#D206PartTwoDetectionCode()
+D206PartTwoDetectionCode()
 #D206PartThreeTreatmentCode()
 #D206PartThreeProvideCode()
 D206PartThreeCheckVariablesAfterClean()
